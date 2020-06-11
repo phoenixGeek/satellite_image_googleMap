@@ -6,7 +6,7 @@ import time
 import json
 import os.path
 
-API_KEY = "AIzaSyB0xw4tDGGBK7HsVjrMwqCQULfcxkdQEAU"
+API_KEY = "YOUR_API_KEY"
 gmaps = googlemaps.Client(key = API_KEY)
 
 zipcode = sys.argv[1]
